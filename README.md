@@ -8,7 +8,7 @@
 下面开始吧
 
 - 参考文章
-- - [从零开始搭建Vue组件库 VV-UI]<https://zhuanlan.zhihu.com/p/30948290>
+- - [从零开始搭建Vue组件库 VV-UI](https://zhuanlan.zhihu.com/p/30948290)
 
 ## 前期准备
 
