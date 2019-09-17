@@ -4,6 +4,10 @@
   "description": "This is a UI components for Vue 2.x ",
   "main": "lib/fungwey-ui.umd.min.js",
   "author": "fungwey <549014963@qq.com>",
+  "repository": {
+    "url": "https://fungwey.github.io/fungwey-ui/",
+    "type": "git"
+  },
   "keyword": "fungwey-ui",
   "private": false,
   "scripts": {
