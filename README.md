@@ -7,6 +7,8 @@
 
 下面开始吧
 
+[项目地址](https://github.com/fungwey/fungwey-ui)（持续开发中，仅用作学习）
+
 - 参考文章(感谢这些作者)
 - [从零开始搭建Vue组件库 VV-UI](https://zhuanlan.zhihu.com/p/30948290)
 - [手把手带你撸一个vue组件库！](https://juejin.im/post/5afcd516f265da0b9e65414b)
@@ -100,16 +102,29 @@
 ### 二、编写组件
 
 1. 导入组件
-    新建 `/packages/src/utils/util.js`,
-        `/packages/tab-pane/index.js`,
-        `/packages/tabs/index.js`,
-        `packages/tabs/src/tabs.vue`,
-        `packages/tabs/src/tab-pane.vue`,
-        `packages/tabs/src/tab-nav.vue`,
-        `packages/tabs/src/tab-bar.vue`
+    新建如下内容，文件内容在这里 [GitHub](https://github.com/fungwey/fungwey-ui)
 
-    文件内容 [GitHub]<>
-    `/packages/tabs/index.js` 对组件进行导出
+    ```markdown
+        .
+        ...
+        +- packages
+        |  +--src
+        |     +--utils
+        |         +--util.js
+        |  +-- tab-pane
+        |     +-- index.js
+        |  +-- tabs
+        |      +-- index.js
+        |      +-- src
+        |          +-- tabs.vue
+        |          +-- tab-pane.vue
+        |          +-- tab-nav.vue
+        |          +-- tab-bar.vue
+        ...
+        .
+    ```
+
+    在`/packages/tabs/index.js` 对组件进行导出
 
     ```js
     // 导入组件
