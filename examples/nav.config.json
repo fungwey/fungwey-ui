@@ -1,0 +1,33 @@
+{
+    "开发指南": [
+        {
+            "name": "index",
+            "path": "/",
+            "type": "pages"
+        }, {
+            "name": "giud",
+            "path": "/giud",
+            "desc": "介绍"
+        }, {
+            "name": "install",
+            "path": "/install",
+            "desc": "安装"
+        }, {
+            "name": "quickstart",
+            "path": "/quickstart",
+            "desc": "快速开始"
+        }
+    ],
+    "组件": [
+        {
+            "desc": "导航",
+            "path": "/component",
+            "items": [{
+                    "desc": "Tabs 标签页",
+                    "name": "tabs",
+                    "path": "/tabs"
+                }
+            ]
+        }
+    ]
+}
